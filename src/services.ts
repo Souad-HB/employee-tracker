@@ -344,11 +344,11 @@ const updateManager = () => {
                 {
                     type: 'list',
                     name: "employee",
-                    message: "Which employee's manager you want to update?",
-                    choices: result.rows.map((employee) => ({
+                    message: "Which employee's manager do you want to update?",
+                    choices: (result.rows.map((employee) => ({
                         name: employee.first_name + ' ' + employee.last_name,
                         value: employee.id
-                    }))
+                    }))).filter((manager) => manager != null)
                 }
             ])
             .then ((answer) => {
