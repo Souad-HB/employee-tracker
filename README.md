@@ -54,7 +54,7 @@ This project is licensed under the MIT License. To learn more about this means, 
 
 ## Demonstration
 
-Visit this [link](https://app.screencastify.com/v2/manage/videos/Ecuv6uek3vkLPXDlyHDa) to see a demo of the application.
+Visit this [link](https://www.loom.com/share/b85e74e8afaf4946a536d1a19e2222a3?sid=e10b38a3-f4c2-4947-b5c3-f56fa96c31fb) to see a demo of the application.
 
 ## Tests
 
