@@ -81,14 +81,22 @@ function employeeTracker () {
         else if (answers.prompt === 'Quit') {
         
             Quit();
-        }
+        };
 
-    })
+    });
     
+};
 
+const onceConnected = () => {
+    console.log("***********************************")
+    console.log("*                                 *")
+    console.log("*        EMPLOYEE TRACKER         *")
+    console.log("*                                 *")
+    console.log("***********************************")
+    employeeTracker();
 }
 
-employeeTracker();
+onceConnected();
 
 
 // ------------------------------------------
@@ -103,7 +111,3 @@ app.listen(PORT, () => {
   
 
 export { employeeTracker };
-
-// SELECT e.id, e.first_name, e.last_name, CONCAT(manager.first_name, ' ', manager.last_name) FROM employee 
-// LEFT JOIN employee manager ON employee.manager_id = manager_id 
-// ORDER BY id ASC
