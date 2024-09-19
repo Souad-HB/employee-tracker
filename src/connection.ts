@@ -1,4 +1,4 @@
-import dotenv from 'dotenv';
+import dotenv from 'dotenv'; // always on top
 dotenv.config();
 import pg from'pg';
 
